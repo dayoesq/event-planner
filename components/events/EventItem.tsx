@@ -3,10 +3,10 @@ import Image from 'next/image';
 import { IItem } from './EventList';
 
 import classes from './EventItem.module.css';
-import Button from './ui/Button';
-import DateIcon from './icons/DateIcon';
-import AddressIcon from './icons/AddressIcon';
-import ArrowRightIcon from './icons/ArrowRightIcon';
+import Button from '../ui/Button';
+import DateIcon from '../icons/DateIcon';
+import AddressIcon from '../icons/AddressIcon';
+import ArrowRightIcon from '../icons/ArrowRightIcon';
 
 
 const EventItem: React.FC<IItem> = props => {

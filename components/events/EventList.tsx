@@ -21,6 +21,7 @@ const EventList: React.FC<EventListProps> = props => {
     <ul className={classes.list}>
       {items.map((item) => (
         <EventItem
+          id={item.id}
           key={item.id}
           title={item.title}
           date={item.date}
